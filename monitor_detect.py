@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """ 
-Names: Bwalya Maele(bgmloop), Ananias M(amayes24)
+Names: Bwalya Maele(bgmloop), Ananias Mayes(amayes24)
 Monitoring/Detection and Mitigation Scripts
 This script monitors file system activity to detect and prevent ransomware attacks.
 It employs countermeasures and uses entropy analysis to identify dubious encryption activity.
