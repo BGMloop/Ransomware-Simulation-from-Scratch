@@ -44,7 +44,7 @@ sudo python3 keylogger.py
 infection_keylog.txt.
 
 ## Building Infection Components 
-ransomware_infect.py 
+python3 ransomware_infect.py 
 # In Python 3 choose option 3 for the malicious file
 
 ## Performing a Document-Based Attack
