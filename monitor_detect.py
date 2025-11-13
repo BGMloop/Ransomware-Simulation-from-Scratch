@@ -73,11 +73,11 @@ cursor = conn.cursor()
 # Create table for storing security events
 cursor.execute('''
 CREATE TABLE IF NOT EXISTS access_events (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,    # Unique event ID
-    timestamp TEXT,                          # Event timestamp
-    event_type TEXT,                         # Type of file system event
-    file_path TEXT,                          # Path of affected file
-    alert TEXT                               # Alert message if triggered
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    timestamp TEXT,
+    event_type TEXT,
+    file_path TEXT,
+    alert TEXT
 )
 ''')
 conn.commit()
